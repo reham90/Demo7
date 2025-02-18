@@ -160,7 +160,7 @@ if ($(window).width() <= 991) {
     },
     breakpoints: {
       0: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 15,
       },
       767: {

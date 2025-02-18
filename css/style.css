@@ -186,7 +186,7 @@ padding: 5px;
 	color: var(--main-hover);
 }
 .menu-bar{
-	background-color: #201362;
+	background-color: #1d105c;
 	padding: 13px 0 10px;
 }
 
@@ -736,7 +736,7 @@ html[dir="ltr"] .search-input{
 	color: var(--main-hover);
 }
 .top-header-list-icon{
-	font-size: 24px;
+	font-size: 20px;
 	transition: 0.5s;
 	color: #fff;
 }
@@ -1112,7 +1112,7 @@ html[dir="ltr"] .search-input{
 .main,
 .swiper-cont {
 	
-	height: 100vh;
+	height: 590px;
 }
 
 .main .pro-img {
@@ -1186,7 +1186,7 @@ position: relative;
 .main-slider .swiper-pagination {
 	position: relative;
 	width: 100%;
-	bottom: 121px;
+	bottom: 30px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1226,7 +1226,7 @@ position: relative;
 /*                       categories section      */
 
 .categories-section{
-	padding: 0;
+	padding: 70px 0 100px;
 }
 .categories-grid{
 	display: grid
@@ -2080,7 +2080,7 @@ footer {
 	gap:12px;
 }
 .nav-foot-link{
-	color: #ffd5fd;
+	color: #beb5e7;
 	font-size: 14px;
 	transition: 0.5s;
 	text-transform: capitalize;
@@ -2286,8 +2286,8 @@ footer {
 	}
 	
 	.category-img {
-		width: 110px;
-		height: 110px;
+		width: 165px;
+		height: 165px;
 		
 	}
 	.categories-grid{
@@ -2394,8 +2394,10 @@ footer {
 	bottom: 30px;
 }
 .search-button{
-	font-size: 16px;
+	font-size: 14px;
 	top: 46.2%;
+	width: 33px;
+	height: 33px;
 }
 .main .main-slider-img{
 	object-fit: cover;
@@ -2502,12 +2504,16 @@ footer {
 	}
 
 	.product-name{
-		height: 80px;
+		height: 65px;
 		margin-bottom: 0;
 	}
 	.product-text{
 		width: 158px;
 		gap:15px;
+	}
+	.price{
+		flex-direction: column;
+		gap:0;
 	}
 
 	.banner-section-div{
@@ -2808,7 +2814,7 @@ footer {
         width: 100%;
         gap: 5px;
       justify-content: space-between;
-		color: #24156d;
+		color: #beb5e7;
 		transition: 0.5s;
 		font-family: "Tajawal-Bold";
 	}
