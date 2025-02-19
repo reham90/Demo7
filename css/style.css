@@ -308,7 +308,7 @@ header {
 }
 
 .big-menu li a {
-	color: rgb(212, 139, 255);
+	color: #beb5e7;
 	font-size: 16px;
 	text-transform: capitalize;
 	transition: all 0.3s ease-in-out;
@@ -2814,7 +2814,7 @@ footer {
         width: 100%;
         gap: 5px;
       justify-content: space-between;
-		color: #beb5e7;
+		color: var(--main-color);
 		transition: 0.5s;
 		font-family: "Tajawal-Bold";
 	}
